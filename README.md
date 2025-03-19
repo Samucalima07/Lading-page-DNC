@@ -52,28 +52,11 @@ O formulário da landing page está configurado para enviar os seguintes dados �
 - `Date`
 - `Phone`
 
-### Exemplo de Configuração no JavaScript:
-
-```js
-const form = document.getElementById("formulario");
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const data = new FormData(form);
-    fetch("https://api.sheetmonkey.io/form/seu-endpoint", {
-        method: "POST",
-        body: data,
-    })
-    .then(response => alert("Cadastro realizado com sucesso!"))
-    .catch(error => alert("Erro ao enviar o formulário."));
-});
-```
-
 ## 📞 Contato
 
 Caso tenha dúvidas ou sugestões, entre em contato: 
 
-📧 Email: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
+📧 Email: [samuel.enderson003@gmail.com](samuel.enderson003@gmail.com)
 
 ---
 
